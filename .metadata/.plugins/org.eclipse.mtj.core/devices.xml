@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deviceRegistry version="1.2.2.201311211403">
+   <defaultDeviceSdkName value="Oracle Java(TM) Platform Micro Edition SDK 3.4"/>
+   <defaultDevicename value="ClamshellJavaMEPhone1"/>
+   <device0 bundle="org.eclipse.mtj.toolkit.uei" class="org.eclipse.mtj.internal.toolkit.uei.UEIDeviceInternal" id="0">
+      <classpath class="org.eclipse.mtj.internal.core.sdk.device.DeviceClasspath" id="1">
+         <entryCount value="17"/>
+         <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="2">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\cldc_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="3">
+               <identifier value="CLDC"/>
+               <name value="Connected Limited Device Configuration"/>
+               <type value="0"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry0>
+         <entry1 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="4">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr082_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="5">
+               <identifier value="JSR82"/>
+               <name value="Java APIs for Bluetooth Wireless Technology"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry1>
+         <entry2 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="6">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr135_1.2.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="7">
+               <identifier value="MMAPI"/>
+               <name value="Mobile Media API"/>
+               <type value="2"/>
+               <version value="1.2"/>
+            </entry0>
+         </entry2>
+         <entry3 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="8">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr172_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="9">
+               <identifier value="J2ME-WS"/>
+               <name value="J2ME(TM) Web Services"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry3>
+         <entry4 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="10">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr177_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="11">
+               <identifier value="SATSA"/>
+               <name value="Security and Trust Services API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry4>
+         <entry5 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="12">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr179_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="13">
+               <identifier value="JSR179"/>
+               <name value="Location API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry5>
+         <entry6 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="14">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr184_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="15">
+               <identifier value="JSR184"/>
+               <name value="Mobile 3D Graphics API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry6>
+         <entry7 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="16">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr205_2.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="17">
+               <identifier value="WMA"/>
+               <name value="Wireless Messaging API"/>
+               <type value="2"/>
+               <version value="2.0"/>
+            </entry0>
+         </entry7>
+         <entry8 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="18">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr211_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="19">
+               <identifier value="JSR211"/>
+               <name value="ContentHandler API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry8>
+         <entry9 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="20">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr226_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="21">
+               <identifier value="JSR226"/>
+               <name value="Scalable 2D Vector Graphics API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry9>
+         <entry10 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="22">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr234_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="23">
+               <identifier value="JSR234"/>
+               <name value="Advanced Multimedia Supplements API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry10>
+         <entry11 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="24">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr239_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="25">
+               <identifier value="JSR239"/>
+               <name value="Java(TM) Binding for OpenGL(R) ES API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry11>
+         <entry12 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="26">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr256_1.2.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="27">
+               <identifier value="JSR256"/>
+               <name value="Mobile Sensor API"/>
+               <type value="2"/>
+               <version value="1.2"/>
+            </entry0>
+         </entry12>
+         <entry13 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="28">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr257_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="29">
+               <identifier value="JSR257"/>
+               <name value="Contactless Communication API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry13>
+         <entry14 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="30">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr280_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="31">
+               <identifier value="JSR280"/>
+               <name value="XML API for Java(TM) ME"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry14>
+         <entry15 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="32">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr75_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="33">
+               <identifier value="JSR75"/>
+               <name value="PDA Optional Packages for the J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry15>
+         <entry16 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="34">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\midp_2.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="35">
+               <identifier value="MIDP"/>
+               <name value="Mobile Information Device Profile"/>
+               <type value="1"/>
+               <version value="2.1"/>
+            </entry0>
+         </entry16>
+      </classpath>
+      <debugServer value="true"/>
+      <description value="JavaMEPhone1"/>
+      <deviceProperties>
+         <property key="screen.height" value="320"/>
+         <property key="descriptor" value="Java ME CLDC emulator"/>
+         <property key="screen.width" value="240"/>
+         <property key="security.domains" value="minimum,maximum,unidentified_third_party,identified_third_party,operator,manufacturer"/>
+         <property key="screen.bitDepth" value="16"/>
+         <property key="apis.supported" value="J2ME-WS-1.0,JSR179-1.0,JSR184-1.1,JSR211-1.0,JSR226-1.0,JSR234-1.0,JSR239-1.0,JSR256-1.2,JSR257-1.0,JSR280-1.0,JSR75-1.0,JSR82-1.1,MMAPI-1.2,SATSA-1.0,WMA-2.0"/>
+         <property key="screen.isColor" value="true"/>
+         <property key="bootclasspath" value="C:/Java_ME_platform_SDK_3.4/lib/cldc_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr082_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr135_1.2.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr172_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr177_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr179_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr184_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr205_2.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr211_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr226_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr234_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr239_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr256_1.2.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr257_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr280_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr75_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/midp_2.1.jar"/>
+         <property key="apis" value="C:/Java_ME_platform_SDK_3.4/lib/cldc_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/cldc_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr082_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr120_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr135_1.2.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr172_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr177_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr179_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr184_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr205_2.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr211_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr226_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr234_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr239_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr256_1.2.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr257_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr280_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr75_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/midp_2.0.jar,C:/Java_ME_platform_SDK_3.4/lib/midp_2.1.jar"/>
+         <property key="version.configuration" value="CLDC-1.1"/>
+         <property key="screen.isTouch" value="true"/>
+         <property key="uei.arguments" value="Xdescriptor,Xjam,Xrunjdwp,Xquery,Xdebug,Xautotest,Xdomain"/>
+         <property key="version.profile" value="MIDP-2.1"/>
+      </deviceProperties>
+      <name value="JavaMEPhone1"/>
+      <protectionDomainsCount value="6"/>
+      <protectionDomain0 value="minimum"/>
+      <protectionDomain1 value="maximum"/>
+      <protectionDomain2 value="unidentified_third_party"/>
+      <protectionDomain3 value="identified_third_party"/>
+      <protectionDomain4 value="operator"/>
+      <protectionDomain5 value="manufacturer"/>
+      <groupName value="Oracle Java(TM) Platform Micro Edition SDK 3.4"/>
+      <preverifier class="org.eclipse.mtj.internal.core.build.preverifier.StandardPreverifier" id="36">
+         <preverifierExecutable value="C:\Java_ME_platform_SDK_3.4\bin\preverify"/>
+         <parameters class="org.eclipse.mtj.internal.core.build.preverifier.StandardPreverifierParameters" id="37">
+            <cldc10_count value="3"/>
+            <cldc10_0 value="-nofp"/>
+            <cldc10_1 value="-nofinalize"/>
+            <cldc10_2 value="-nonative"/>
+            <cldc11_count value="2"/>
+            <cldc11_0 value="-nofinalize"/>
+            <cldc11_1 value="-nonative"/>
+         </parameters>
+      </preverifier>
+      <rawLaunchCommand value="%executable% [%debugPort%|-Xdebug -Xrunjdwp:transport=dt_socket,suspend=y,server=y,address=%debugPort%] [%classpath%|-classpath &quot;%classpath%&quot;] -Xdevice:%device% [%jadfile%|&quot;-Xdescriptor:%jadfile%&quot;] [%verbose%|-Xverbose:%verbose%] [%heapsize%|-Xheapsize:%heapsize%] [%securityDomain%|-Xdomain:%securityDomain%] %userSpecifiedArguments% [%target%|%target%] [%otaurl%|-Xjam:transient=%otaurl%]"/>
+      <executable value="C:\Java_ME_platform_SDK_3.4\bin\emulator.exe"/>
+   </device0>
+   <device1 bundle="org.eclipse.mtj.toolkit.uei" class="org.eclipse.mtj.internal.toolkit.uei.UEIDeviceInternal" id="38">
+      <classpath class="org.eclipse.mtj.internal.core.sdk.device.DeviceClasspath" id="39">
+         <entryCount value="17"/>
+         <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="40">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\cldc_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="41">
+               <identifier value="CLDC"/>
+               <name value="Connected Limited Device Configuration"/>
+               <type value="0"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry0>
+         <entry1 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="42">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr082_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="43">
+               <identifier value="JSR82"/>
+               <name value="Java APIs for Bluetooth Wireless Technology"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry1>
+         <entry2 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="44">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr135_1.2.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="45">
+               <identifier value="MMAPI"/>
+               <name value="Mobile Media API"/>
+               <type value="2"/>
+               <version value="1.2"/>
+            </entry0>
+         </entry2>
+         <entry3 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="46">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr172_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="47">
+               <identifier value="J2ME-WS"/>
+               <name value="J2ME(TM) Web Services"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry3>
+         <entry4 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="48">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr177_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="49">
+               <identifier value="SATSA"/>
+               <name value="Security and Trust Services API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry4>
+         <entry5 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="50">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr179_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="51">
+               <identifier value="JSR179"/>
+               <name value="Location API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry5>
+         <entry6 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="52">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr184_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="53">
+               <identifier value="JSR184"/>
+               <name value="Mobile 3D Graphics API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry6>
+         <entry7 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="54">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr205_2.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="55">
+               <identifier value="WMA"/>
+               <name value="Wireless Messaging API"/>
+               <type value="2"/>
+               <version value="2.0"/>
+            </entry0>
+         </entry7>
+         <entry8 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="56">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr211_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="57">
+               <identifier value="JSR211"/>
+               <name value="ContentHandler API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry8>
+         <entry9 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="58">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr226_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="59">
+               <identifier value="JSR226"/>
+               <name value="Scalable 2D Vector Graphics API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry9>
+         <entry10 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="60">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr234_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="61">
+               <identifier value="JSR234"/>
+               <name value="Advanced Multimedia Supplements API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry10>
+         <entry11 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="62">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr239_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="63">
+               <identifier value="JSR239"/>
+               <name value="Java(TM) Binding for OpenGL(R) ES API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry11>
+         <entry12 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="64">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr256_1.2.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="65">
+               <identifier value="JSR256"/>
+               <name value="Mobile Sensor API"/>
+               <type value="2"/>
+               <version value="1.2"/>
+            </entry0>
+         </entry12>
+         <entry13 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="66">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr257_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="67">
+               <identifier value="JSR257"/>
+               <name value="Contactless Communication API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry13>
+         <entry14 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="68">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr280_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="69">
+               <identifier value="JSR280"/>
+               <name value="XML API for Java(TM) ME"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry14>
+         <entry15 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="70">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr75_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="71">
+               <identifier value="JSR75"/>
+               <name value="PDA Optional Packages for the J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry15>
+         <entry16 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="72">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\midp_2.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="73">
+               <identifier value="MIDP"/>
+               <name value="Mobile Information Device Profile"/>
+               <type value="1"/>
+               <version value="2.1"/>
+            </entry0>
+         </entry16>
+      </classpath>
+      <debugServer value="true"/>
+      <description value="JavaMEPhone2"/>
+      <deviceProperties>
+         <property key="screen.height" value="320"/>
+         <property key="descriptor" value="Java ME CLDC emulator"/>
+         <property key="screen.width" value="240"/>
+         <property key="security.domains" value="minimum,maximum,unidentified_third_party,identified_third_party,operator,manufacturer"/>
+         <property key="screen.bitDepth" value="16"/>
+         <property key="apis.supported" value="J2ME-WS-1.0,JSR179-1.0,JSR184-1.1,JSR211-1.0,JSR226-1.0,JSR234-1.0,JSR239-1.0,JSR256-1.2,JSR257-1.0,JSR280-1.0,JSR75-1.0,JSR82-1.1,MMAPI-1.2,SATSA-1.0,WMA-2.0"/>
+         <property key="apis" value="C:/Java_ME_platform_SDK_3.4/lib/cldc_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/cldc_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr082_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr120_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr135_1.2.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr172_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr177_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr179_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr184_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr205_2.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr211_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr226_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr234_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr239_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr256_1.2.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr257_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr280_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr75_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/midp_2.0.jar,C:/Java_ME_platform_SDK_3.4/lib/midp_2.1.jar"/>
+         <property key="bootclasspath" value="C:/Java_ME_platform_SDK_3.4/lib/cldc_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr082_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr135_1.2.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr172_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr177_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr179_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr184_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr205_2.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr211_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr226_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr234_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr239_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr256_1.2.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr257_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr280_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr75_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/midp_2.1.jar"/>
+         <property key="screen.isColor" value="true"/>
+         <property key="version.configuration" value="CLDC-1.1"/>
+         <property key="screen.isTouch" value="true"/>
+         <property key="uei.arguments" value="Xdescriptor,Xjam,Xrunjdwp,Xquery,Xdebug,Xautotest,Xdomain"/>
+         <property key="version.profile" value="MIDP-2.1"/>
+      </deviceProperties>
+      <name value="JavaMEPhone2"/>
+      <protectionDomainsCount value="6"/>
+      <protectionDomain0 value="minimum"/>
+      <protectionDomain1 value="maximum"/>
+      <protectionDomain2 value="unidentified_third_party"/>
+      <protectionDomain3 value="identified_third_party"/>
+      <protectionDomain4 value="operator"/>
+      <protectionDomain5 value="manufacturer"/>
+      <groupName value="Oracle Java(TM) Platform Micro Edition SDK 3.4"/>
+      <preverifier class="org.eclipse.mtj.internal.core.build.preverifier.StandardPreverifier" id="74">
+         <preverifierExecutable value="C:\Java_ME_platform_SDK_3.4\bin\preverify"/>
+         <parameters class="org.eclipse.mtj.internal.core.build.preverifier.StandardPreverifierParameters" id="75">
+            <cldc10_count value="3"/>
+            <cldc10_0 value="-nofp"/>
+            <cldc10_1 value="-nofinalize"/>
+            <cldc10_2 value="-nonative"/>
+            <cldc11_count value="2"/>
+            <cldc11_0 value="-nofinalize"/>
+            <cldc11_1 value="-nonative"/>
+         </parameters>
+      </preverifier>
+      <rawLaunchCommand value="%executable% [%debugPort%|-Xdebug -Xrunjdwp:transport=dt_socket,suspend=y,server=y,address=%debugPort%] [%classpath%|-classpath &quot;%classpath%&quot;] -Xdevice:%device% [%jadfile%|&quot;-Xdescriptor:%jadfile%&quot;] [%verbose%|-Xverbose:%verbose%] [%heapsize%|-Xheapsize:%heapsize%] [%securityDomain%|-Xdomain:%securityDomain%] %userSpecifiedArguments% [%target%|%target%] [%otaurl%|-Xjam:transient=%otaurl%]"/>
+      <executable value="C:\Java_ME_platform_SDK_3.4\bin\emulator.exe"/>
+   </device1>
+   <device2 bundle="org.eclipse.mtj.toolkit.uei" class="org.eclipse.mtj.internal.toolkit.uei.UEIDeviceInternal" id="76">
+      <classpath class="org.eclipse.mtj.internal.core.sdk.device.DeviceClasspath" id="77">
+         <entryCount value="12"/>
+         <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="78">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\ams_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="79">
+               <identifier value="AMS"/>
+               <name value="AMS API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry0>
+         <entry1 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="80">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\cldc_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="81">
+               <identifier value="CLDC"/>
+               <name value="Connected Limited Device Configuration"/>
+               <type value="0"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry1>
+         <entry2 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="82">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\deviceaccess_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="83">
+               <identifier value="DEVICE_ACCESS"/>
+               <name value="Device Access"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry2>
+         <entry3 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="84">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\impng_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="85">
+               <identifier value="IMP-NG"/>
+               <name value="Information Module Profile - Next Generation (IMP-NG)"/>
+               <type value="1"/>
+               <version value="0.0"/>
+            </entry0>
+         </entry3>
+         <entry4 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="86">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr120_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="87">
+               <identifier value="WMA"/>
+               <name value="Wireless Messaging API"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry4>
+         <entry5 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="88">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr172_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="89">
+               <identifier value="J2ME-WS"/>
+               <name value="J2ME(TM) Web Services"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry5>
+         <entry6 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="90">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr177_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="91">
+               <identifier value="SATSA"/>
+               <name value="Security and Trust Services API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry6>
+         <entry7 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="92">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr179_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="93">
+               <identifier value="JSR179"/>
+               <name value="Location API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry7>
+         <entry8 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="94">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr280_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="95">
+               <identifier value="JSR280"/>
+               <name value="XML API for Java(TM) ME"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry8>
+         <entry9 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="96">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr75_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="97">
+               <identifier value="JSR75"/>
+               <name value="PDA Optional Packages for the J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry9>
+         <entry10 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="98">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\logging_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="99">
+               <identifier value="Logging"/>
+               <name value="CLDC Logging API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry10>
+         <entry11 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="100">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\omda_ap_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="101">
+               <identifier value="OMDA_AP"/>
+               <name value="Access Point API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry11>
+      </classpath>
+      <debugServer value="true"/>
+      <description value="Qualcomm_IoE_Device"/>
+      <deviceProperties>
+         <property key="version.configuration" value="CLDC-1.1"/>
+         <property key="uei.arguments" value="Xdescriptor,Xjam,Xrunjdwp,Xquery,Xdebug,Xautotest,Xdomain"/>
+         <property key="apis" value="C:/Java_ME_platform_SDK_3.4/lib/ams_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/cldc_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/deviceaccess_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/impng_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr120_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr172_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr177_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr179_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr280_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr75_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/logging_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/omda_ap_1.0.jar"/>
+         <property key="descriptor" value="Emulation for Qualcomm IoE Development Board"/>
+         <property key="security.domains" value="minimum,maximum,untrusted,trusted,operator,manufacturer"/>
+         <property key="apis.supported" value="AMS-1.0,DEVICE_ACCESS-1.0,J2ME-WS-1.0,JSR179-1.0,JSR280-1.0,JSR75-1.0,Logging-1.0,OMDA_AP-1.0,SATSA-1.0,WMA-1.1"/>
+         <property key="version.profile" value="IMP-NG"/>
+         <property key="bootclasspath" value="C:/Java_ME_platform_SDK_3.4/lib/ams_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/cldc_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/deviceaccess_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/impng_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr120_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr172_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr177_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr179_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr280_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr75_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/logging_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/omda_ap_1.0.jar"/>
+      </deviceProperties>
+      <name value="Qualcomm_IoE_Device"/>
+      <protectionDomainsCount value="6"/>
+      <protectionDomain0 value="minimum"/>
+      <protectionDomain1 value="maximum"/>
+      <protectionDomain2 value="untrusted"/>
+      <protectionDomain3 value="trusted"/>
+      <protectionDomain4 value="operator"/>
+      <protectionDomain5 value="manufacturer"/>
+      <groupName value="Oracle Java(TM) Platform Micro Edition SDK 3.4"/>
+      <preverifier class="org.eclipse.mtj.internal.core.build.preverifier.StandardPreverifier" id="102">
+         <preverifierExecutable value="C:\Java_ME_platform_SDK_3.4\bin\preverify"/>
+         <parameters class="org.eclipse.mtj.internal.core.build.preverifier.StandardPreverifierParameters" id="103">
+            <cldc10_count value="3"/>
+            <cldc10_0 value="-nofp"/>
+            <cldc10_1 value="-nofinalize"/>
+            <cldc10_2 value="-nonative"/>
+            <cldc11_count value="2"/>
+            <cldc11_0 value="-nofinalize"/>
+            <cldc11_1 value="-nonative"/>
+         </parameters>
+      </preverifier>
+      <rawLaunchCommand value="%executable% [%debugPort%|-Xdebug -Xrunjdwp:transport=dt_socket,suspend=y,server=y,address=%debugPort%] [%classpath%|-classpath &quot;%classpath%&quot;] -Xdevice:%device% [%jadfile%|&quot;-Xdescriptor:%jadfile%&quot;] [%verbose%|-Xverbose:%verbose%] [%heapsize%|-Xheapsize:%heapsize%] [%securityDomain%|-Xdomain:%securityDomain%] %userSpecifiedArguments% [%target%|%target%] [%otaurl%|-Xjam:transient=%otaurl%]"/>
+      <executable value="C:\Java_ME_platform_SDK_3.4\bin\emulator.exe"/>
+   </device2>
+   <device3 bundle="org.eclipse.mtj.toolkit.uei" class="org.eclipse.mtj.internal.toolkit.uei.UEIDeviceInternal" id="104">
+      <classpath class="org.eclipse.mtj.internal.core.sdk.device.DeviceClasspath" id="105">
+         <entryCount value="12"/>
+         <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="106">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\ams_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="107">
+               <identifier value="AMS"/>
+               <name value="AMS API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry0>
+         <entry1 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="108">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\cldc_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="109">
+               <identifier value="CLDC"/>
+               <name value="Connected Limited Device Configuration"/>
+               <type value="0"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry1>
+         <entry2 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="110">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\deviceaccess_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="111">
+               <identifier value="DEVICE_ACCESS"/>
+               <name value="Device Access"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry2>
+         <entry3 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="112">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\impng_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="113">
+               <identifier value="IMP-NG"/>
+               <name value="Information Module Profile - Next Generation (IMP-NG)"/>
+               <type value="1"/>
+               <version value="0.0"/>
+            </entry0>
+         </entry3>
+         <entry4 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="114">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr120_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="115">
+               <identifier value="WMA"/>
+               <name value="Wireless Messaging API"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry4>
+         <entry5 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="116">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr172_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="117">
+               <identifier value="J2ME-WS"/>
+               <name value="J2ME(TM) Web Services"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry5>
+         <entry6 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="118">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr177_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="119">
+               <identifier value="SATSA"/>
+               <name value="Security and Trust Services API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry6>
+         <entry7 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="120">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr179_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="121">
+               <identifier value="JSR179"/>
+               <name value="Location API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry7>
+         <entry8 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="122">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr280_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="123">
+               <identifier value="JSR280"/>
+               <name value="XML API for Java(TM) ME"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry8>
+         <entry9 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="124">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr75_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="125">
+               <identifier value="JSR75"/>
+               <name value="PDA Optional Packages for the J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry9>
+         <entry10 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="126">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\logging_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="127">
+               <identifier value="Logging"/>
+               <name value="CLDC Logging API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry10>
+         <entry11 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="128">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\omda_ap_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="129">
+               <identifier value="OMDA_AP"/>
+               <name value="Access Point API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry11>
+      </classpath>
+      <debugServer value="true"/>
+      <description value="IMPNGDevice1"/>
+      <deviceProperties>
+         <property key="version.configuration" value="CLDC-1.1"/>
+         <property key="uei.arguments" value="Xdescriptor,Xjam,Xrunjdwp,Xquery,Xdebug,Xautotest,Xdomain"/>
+         <property key="apis" value="C:/Java_ME_platform_SDK_3.4/lib/ams_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/cldc_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/deviceaccess_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/impng_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr120_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr172_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr177_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr179_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr280_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr75_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/logging_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/omda_ap_1.0.jar"/>
+         <property key="descriptor" value="Java ME IMP-NG emulator"/>
+         <property key="security.domains" value="minimum,maximum,untrusted,trusted,operator,manufacturer"/>
+         <property key="version.profile" value="IMP-NG"/>
+         <property key="bootclasspath" value="C:/Java_ME_platform_SDK_3.4/lib/ams_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/cldc_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/deviceaccess_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/impng_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr120_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr172_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr177_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr179_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr280_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr75_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/logging_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/omda_ap_1.0.jar"/>
+         <property key="apis.supported" value="AMS-1.0,DEVICE_ACCESS-1.0,J2ME-WS-1.0,JSR179-1.0,JSR280-1.0,JSR75-1.0,Logging-1.0,OMDA_AP-1.0,SATSA-1.0,WMA-1.1"/>
+      </deviceProperties>
+      <name value="IMPNGDevice1"/>
+      <protectionDomainsCount value="6"/>
+      <protectionDomain0 value="minimum"/>
+      <protectionDomain1 value="maximum"/>
+      <protectionDomain2 value="untrusted"/>
+      <protectionDomain3 value="trusted"/>
+      <protectionDomain4 value="operator"/>
+      <protectionDomain5 value="manufacturer"/>
+      <groupName value="Oracle Java(TM) Platform Micro Edition SDK 3.4"/>
+      <preverifier class="org.eclipse.mtj.internal.core.build.preverifier.StandardPreverifier" id="130">
+         <preverifierExecutable value="C:\Java_ME_platform_SDK_3.4\bin\preverify"/>
+         <parameters class="org.eclipse.mtj.internal.core.build.preverifier.StandardPreverifierParameters" id="131">
+            <cldc10_count value="3"/>
+            <cldc10_0 value="-nofp"/>
+            <cldc10_1 value="-nofinalize"/>
+            <cldc10_2 value="-nonative"/>
+            <cldc11_count value="2"/>
+            <cldc11_0 value="-nofinalize"/>
+            <cldc11_1 value="-nonative"/>
+         </parameters>
+      </preverifier>
+      <rawLaunchCommand value="%executable% [%debugPort%|-Xdebug -Xrunjdwp:transport=dt_socket,suspend=y,server=y,address=%debugPort%] [%classpath%|-classpath &quot;%classpath%&quot;] -Xdevice:%device% [%jadfile%|&quot;-Xdescriptor:%jadfile%&quot;] [%verbose%|-Xverbose:%verbose%] [%heapsize%|-Xheapsize:%heapsize%] [%securityDomain%|-Xdomain:%securityDomain%] %userSpecifiedArguments% [%target%|%target%] [%otaurl%|-Xjam:transient=%otaurl%]"/>
+      <executable value="C:\Java_ME_platform_SDK_3.4\bin\emulator.exe"/>
+   </device3>
+   <device4 bundle="org.eclipse.mtj.toolkit.uei" class="org.eclipse.mtj.internal.toolkit.uei.UEIDeviceInternal" id="132">
+      <classpath class="org.eclipse.mtj.internal.core.sdk.device.DeviceClasspath" id="133">
+         <entryCount value="12"/>
+         <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="134">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\ams_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="135">
+               <identifier value="AMS"/>
+               <name value="AMS API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry0>
+         <entry1 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="136">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\cldc_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="137">
+               <identifier value="CLDC"/>
+               <name value="Connected Limited Device Configuration"/>
+               <type value="0"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry1>
+         <entry2 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="138">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\deviceaccess_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="139">
+               <identifier value="DEVICE_ACCESS"/>
+               <name value="Device Access"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry2>
+         <entry3 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="140">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\impng_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="141">
+               <identifier value="IMP-NG"/>
+               <name value="Information Module Profile - Next Generation (IMP-NG)"/>
+               <type value="1"/>
+               <version value="0.0"/>
+            </entry0>
+         </entry3>
+         <entry4 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="142">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr120_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="143">
+               <identifier value="WMA"/>
+               <name value="Wireless Messaging API"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry4>
+         <entry5 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="144">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr172_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="145">
+               <identifier value="J2ME-WS"/>
+               <name value="J2ME(TM) Web Services"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry5>
+         <entry6 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="146">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr177_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="147">
+               <identifier value="SATSA"/>
+               <name value="Security and Trust Services API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry6>
+         <entry7 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="148">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr179_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="149">
+               <identifier value="JSR179"/>
+               <name value="Location API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry7>
+         <entry8 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="150">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr280_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="151">
+               <identifier value="JSR280"/>
+               <name value="XML API for Java(TM) ME"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry8>
+         <entry9 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="152">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr75_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="153">
+               <identifier value="JSR75"/>
+               <name value="PDA Optional Packages for the J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry9>
+         <entry10 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="154">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\logging_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="155">
+               <identifier value="Logging"/>
+               <name value="CLDC Logging API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry10>
+         <entry11 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="156">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\omda_ap_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="157">
+               <identifier value="OMDA_AP"/>
+               <name value="Access Point API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry11>
+      </classpath>
+      <debugServer value="true"/>
+      <description value="IMPNGDevice2"/>
+      <deviceProperties>
+         <property key="version.configuration" value="CLDC-1.1"/>
+         <property key="uei.arguments" value="Xdescriptor,Xjam,Xrunjdwp,Xquery,Xdebug,Xautotest,Xdomain"/>
+         <property key="apis" value="C:/Java_ME_platform_SDK_3.4/lib/ams_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/cldc_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/deviceaccess_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/impng_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr120_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr172_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr177_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr179_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr280_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr75_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/logging_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/omda_ap_1.0.jar"/>
+         <property key="descriptor" value="Java ME IMP-NG emulator"/>
+         <property key="security.domains" value="minimum,maximum,untrusted,trusted,operator,manufacturer"/>
+         <property key="apis.supported" value="AMS-1.0,DEVICE_ACCESS-1.0,J2ME-WS-1.0,JSR179-1.0,JSR280-1.0,JSR75-1.0,Logging-1.0,OMDA_AP-1.0,SATSA-1.0,WMA-1.1"/>
+         <property key="bootclasspath" value="C:/Java_ME_platform_SDK_3.4/lib/ams_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/cldc_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/deviceaccess_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/impng_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr120_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr172_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr177_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr179_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr280_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr75_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/logging_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/omda_ap_1.0.jar"/>
+         <property key="version.profile" value="IMP-NG"/>
+      </deviceProperties>
+      <name value="IMPNGDevice2"/>
+      <protectionDomainsCount value="6"/>
+      <protectionDomain0 value="minimum"/>
+      <protectionDomain1 value="maximum"/>
+      <protectionDomain2 value="untrusted"/>
+      <protectionDomain3 value="trusted"/>
+      <protectionDomain4 value="operator"/>
+      <protectionDomain5 value="manufacturer"/>
+      <groupName value="Oracle Java(TM) Platform Micro Edition SDK 3.4"/>
+      <preverifier class="org.eclipse.mtj.internal.core.build.preverifier.StandardPreverifier" id="158">
+         <preverifierExecutable value="C:\Java_ME_platform_SDK_3.4\bin\preverify"/>
+         <parameters class="org.eclipse.mtj.internal.core.build.preverifier.StandardPreverifierParameters" id="159">
+            <cldc10_count value="3"/>
+            <cldc10_0 value="-nofp"/>
+            <cldc10_1 value="-nofinalize"/>
+            <cldc10_2 value="-nonative"/>
+            <cldc11_count value="2"/>
+            <cldc11_0 value="-nofinalize"/>
+            <cldc11_1 value="-nonative"/>
+         </parameters>
+      </preverifier>
+      <rawLaunchCommand value="%executable% [%debugPort%|-Xdebug -Xrunjdwp:transport=dt_socket,suspend=y,server=y,address=%debugPort%] [%classpath%|-classpath &quot;%classpath%&quot;] -Xdevice:%device% [%jadfile%|&quot;-Xdescriptor:%jadfile%&quot;] [%verbose%|-Xverbose:%verbose%] [%heapsize%|-Xheapsize:%heapsize%] [%securityDomain%|-Xdomain:%securityDomain%] %userSpecifiedArguments% [%target%|%target%] [%otaurl%|-Xjam:transient=%otaurl%]"/>
+      <executable value="C:\Java_ME_platform_SDK_3.4\bin\emulator.exe"/>
+   </device4>
+   <device5 bundle="org.eclipse.mtj.toolkit.uei" class="org.eclipse.mtj.internal.toolkit.uei.UEIDeviceInternal" id="160">
+      <classpath class="org.eclipse.mtj.internal.core.sdk.device.DeviceClasspath" id="161">
+         <entryCount value="17"/>
+         <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="162">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\cldc_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="163">
+               <identifier value="CLDC"/>
+               <name value="Connected Limited Device Configuration"/>
+               <type value="0"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry0>
+         <entry1 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="164">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr082_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="165">
+               <identifier value="JSR82"/>
+               <name value="Java APIs for Bluetooth Wireless Technology"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry1>
+         <entry2 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="166">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr135_1.2.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="167">
+               <identifier value="MMAPI"/>
+               <name value="Mobile Media API"/>
+               <type value="2"/>
+               <version value="1.2"/>
+            </entry0>
+         </entry2>
+         <entry3 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="168">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr172_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="169">
+               <identifier value="J2ME-WS"/>
+               <name value="J2ME(TM) Web Services"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry3>
+         <entry4 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="170">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr177_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="171">
+               <identifier value="SATSA"/>
+               <name value="Security and Trust Services API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry4>
+         <entry5 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="172">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr179_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="173">
+               <identifier value="JSR179"/>
+               <name value="Location API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry5>
+         <entry6 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="174">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr184_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="175">
+               <identifier value="JSR184"/>
+               <name value="Mobile 3D Graphics API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry6>
+         <entry7 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="176">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr205_2.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="177">
+               <identifier value="WMA"/>
+               <name value="Wireless Messaging API"/>
+               <type value="2"/>
+               <version value="2.0"/>
+            </entry0>
+         </entry7>
+         <entry8 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="178">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr211_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="179">
+               <identifier value="JSR211"/>
+               <name value="ContentHandler API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry8>
+         <entry9 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="180">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr226_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="181">
+               <identifier value="JSR226"/>
+               <name value="Scalable 2D Vector Graphics API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry9>
+         <entry10 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="182">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr234_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="183">
+               <identifier value="JSR234"/>
+               <name value="Advanced Multimedia Supplements API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry10>
+         <entry11 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="184">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr239_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="185">
+               <identifier value="JSR239"/>
+               <name value="Java(TM) Binding for OpenGL(R) ES API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry11>
+         <entry12 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="186">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr256_1.2.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="187">
+               <identifier value="JSR256"/>
+               <name value="Mobile Sensor API"/>
+               <type value="2"/>
+               <version value="1.2"/>
+            </entry0>
+         </entry12>
+         <entry13 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="188">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr257_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="189">
+               <identifier value="JSR257"/>
+               <name value="Contactless Communication API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry13>
+         <entry14 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="190">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr280_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="191">
+               <identifier value="JSR280"/>
+               <name value="XML API for Java(TM) ME"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry14>
+         <entry15 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="192">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\jsr75_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="193">
+               <identifier value="JSR75"/>
+               <name value="PDA Optional Packages for the J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry15>
+         <entry16 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="194">
+            <file value="C:\Java_ME_platform_SDK_3.4\lib\midp_2.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="195">
+               <identifier value="MIDP"/>
+               <name value="Mobile Information Device Profile"/>
+               <type value="1"/>
+               <version value="2.1"/>
+            </entry0>
+         </entry16>
+      </classpath>
+      <debugServer value="true"/>
+      <description value="ClamshellJavaMEPhone1"/>
+      <deviceProperties>
+         <property key="secondaryScreen.width" value="112"/>
+         <property key="screen.height" value="220"/>
+         <property key="descriptor" value="Clamshell Java ME CLDC emulator"/>
+         <property key="screen.width" value="170"/>
+         <property key="security.domains" value="minimum,maximum,unidentified_third_party,identified_third_party,operator,manufacturer"/>
+         <property key="screen.bitDepth" value="16"/>
+         <property key="apis.supported" value="J2ME-WS-1.0,JSR179-1.0,JSR184-1.1,JSR211-1.0,JSR226-1.0,JSR234-1.0,JSR239-1.0,JSR256-1.2,JSR257-1.0,JSR280-1.0,JSR75-1.0,JSR82-1.1,MMAPI-1.2,SATSA-1.0,WMA-2.0"/>
+         <property key="secondaryScreen.height" value="220"/>
+         <property key="apis" value="C:/Java_ME_platform_SDK_3.4/lib/cldc_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/cldc_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr082_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr120_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr135_1.2.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr172_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr177_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr179_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr184_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr205_2.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr211_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr226_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr234_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr239_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr256_1.2.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr257_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr280_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr75_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/midp_2.0.jar,C:/Java_ME_platform_SDK_3.4/lib/midp_2.1.jar"/>
+         <property key="bootclasspath" value="C:/Java_ME_platform_SDK_3.4/lib/cldc_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr082_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr135_1.2.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr172_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr177_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr179_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr184_1.1.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr205_2.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr211_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr226_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr234_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr239_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr256_1.2.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr257_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr280_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/jsr75_1.0.jar,C:/Java_ME_platform_SDK_3.4/lib/midp_2.1.jar"/>
+         <property key="screen.isColor" value="true"/>
+         <property key="version.configuration" value="CLDC-1.1"/>
+         <property key="screen.isTouch" value="false"/>
+         <property key="uei.arguments" value="Xdescriptor,Xjam,Xrunjdwp,Xquery,Xdebug,Xautotest,Xdomain"/>
+         <property key="version.profile" value="MIDP-2.1"/>
+      </deviceProperties>
+      <name value="ClamshellJavaMEPhone1"/>
+      <protectionDomainsCount value="6"/>
+      <protectionDomain0 value="minimum"/>
+      <protectionDomain1 value="maximum"/>
+      <protectionDomain2 value="unidentified_third_party"/>
+      <protectionDomain3 value="identified_third_party"/>
+      <protectionDomain4 value="operator"/>
+      <protectionDomain5 value="manufacturer"/>
+      <groupName value="Oracle Java(TM) Platform Micro Edition SDK 3.4"/>
+      <preverifier class="org.eclipse.mtj.internal.core.build.preverifier.StandardPreverifier" id="196">
+         <preverifierExecutable value="C:\Java_ME_platform_SDK_3.4\bin\preverify"/>
+         <parameters class="org.eclipse.mtj.internal.core.build.preverifier.StandardPreverifierParameters" id="197">
+            <cldc10_count value="3"/>
+            <cldc10_0 value="-nofp"/>
+            <cldc10_1 value="-nofinalize"/>
+            <cldc10_2 value="-nonative"/>
+            <cldc11_count value="2"/>
+            <cldc11_0 value="-nofinalize"/>
+            <cldc11_1 value="-nonative"/>
+         </parameters>
+      </preverifier>
+      <rawLaunchCommand value="%executable% [%debugPort%|-Xdebug -Xrunjdwp:transport=dt_socket,suspend=y,server=y,address=%debugPort%] [%classpath%|-classpath &quot;%classpath%&quot;] -Xdevice:%device% [%jadfile%|&quot;-Xdescriptor:%jadfile%&quot;] [%verbose%|-Xverbose:%verbose%] [%heapsize%|-Xheapsize:%heapsize%] [%securityDomain%|-Xdomain:%securityDomain%] %userSpecifiedArguments% [%target%|%target%] [%otaurl%|-Xjam:transient=%otaurl%]"/>
+      <executable value="C:\Java_ME_platform_SDK_3.4\bin\emulator.exe"/>
+   </device5>
+   <deviceCount value="6"/>
+</deviceRegistry>

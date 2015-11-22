@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" focusable="false" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="List" >
+  <component type="TextArea" name="TextArea" cloudBoundProperty="text" cloudDestinationProperty="TextArea" text="TextArea" >
+    <layoutConstraint value="South" />
+  </component>
+  <component type="ContainerList" name="ContainerList" cloudDestinationProperty="ContainerList" >
+    <layoutConstraint value="Center" />
+    <custom name="ListItems" type="java.lang.Object" array="true" dimensions="1" >
+    <mapItems>
+      <stringItem key="name" value="1" />
+    </mapItems>
+    </custom>
+    <custom name="Renderer" type="com.codename1.ui.list.CellRenderer"  selectedRenderer="renderer" unselectedRenderer="renderer" " />
+  </component>
+</component>

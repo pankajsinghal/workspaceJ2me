@@ -1,0 +1,7 @@
+MIDlet-Jar-Size: 1542
+MIDlet-Jar-URL: helloworldnetbeans.jar
+MIDlet-Name: pankaj
+MIDlet-Vendor: pankaj
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-1.0

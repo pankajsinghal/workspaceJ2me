@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="6" useXmlUI="false">
+    <image name="Container.sel#borderBottom_1.png" type="multi"  />
+    <image name="Container.sel#borderBottomL_1.png" type="multi"  />
+    <image name="Container.sel#borderBottomR_1.png" type="multi"  />
+    <image name="Container.sel#borderCenter_1.png" type="multi"  />
+    <image name="Container.sel#borderLeft_1.png" type="multi"  />
+    <image name="Container.sel#borderRight_1.png" type="multi"  />
+    <image name="Container.sel#borderTop_1.png" type="multi"  />
+    <image name="Container.sel#borderTopL_1.png" type="multi"  />
+    <image name="Container.sel#borderTopR_1.png" type="multi"  />
+    <ui name="Main" />
+    <ui name="renderer" />
+    <theme name="Theme">
+        <val key="@includeNativeBool" value="true" />
+        <val key="Container.sel#align" value="4" />
+        <border key="Container.sel#border" type="image" i1="Container.sel#borderTop_1.png" i2="Container.sel#borderBottom_1.png" i3="Container.sel#borderLeft_1.png" i4="Container.sel#borderRight_1.png" i5="Container.sel#borderTopL_1.png" i6="Container.sel#borderTopR_1.png" i7="Container.sel#borderBottomL_1.png" i8="Container.sel#borderBottomR_1.png" i9="Container.sel#borderCenter_1.png" />
+        <val key="Container.sel#transparency" value="0" />
+    </theme>
+</resource>

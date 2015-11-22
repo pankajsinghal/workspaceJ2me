@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="binaries/asha-sdk/S40-with-themes.jar"/>
+	<classpathentry kind="lib" path="binaries/s40-6th-ed-sdk/S40-with-themes.jar"/>
+	<classpathentry kind="lib" path="binaries/sdk1.1/S40-with-themes.jar"/>
+	<classpathentry kind="lib" path="binaries/sdk2.0/S40-with-themes.jar"/>
+	<classpathentry kind="lib" path="IO.jar"/>
+	<classpathentry kind="lib" path="UI.jar"/>
+	<classpathentry kind="con" path="org.elipse.mtj.JavaMEContainer/Nokia Asha SDK 1.1/Nokia_Asha_SDK_1_1"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

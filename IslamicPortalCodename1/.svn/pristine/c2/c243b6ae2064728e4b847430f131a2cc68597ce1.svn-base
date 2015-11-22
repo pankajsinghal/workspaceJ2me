@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="MainScreen" cloudDestinationProperty="MainScreen" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="headermain" text="" icon="header.png" >
+    <layoutConstraint value="North" />
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="GridLayout" gridLayoutRows="2" gridLayoutColumns="2" >
+    <layoutConstraint value="Center" />
+    <component type="Button" name="Button" cloudDestinationProperty="Button" commandName="Quran Karim" commandIcon="menu_quran-karim.png" commandRolloverIcon="menu_quran-karim.png" commandPressedIcon="menu_quran-karim_dsel.png" commandId="3" commandAction="surah" commandBack="false" uiid="ButtonMainScreen" text="Quran Karim" icon="menu_quran-karim.png" gap="5" textPosition="2" >
+    </component>
+    <component type="Button" name="Button1" cloudDestinationProperty="Button1" commandName="Prayer Alert" commandIcon="menu_prayeralert.png" commandRolloverIcon="menu_prayeralert.png" commandPressedIcon="menu_prayeralert_dsel.png" commandId="9" commandAction="PrayerAlert" commandBack="false" uiid="ButtonMainScreen" text="Prayer Alert" icon="menu_prayeralert.png" gap="5" textPosition="2" >
+    </component>
+    <component type="Button" name="Button2" cloudDestinationProperty="Button2" commandName="Wallpapers" commandIcon="menu_wallpaper.png" commandRolloverIcon="menu_wallpaper.png" commandId="8" commandAction="wallpaper" commandBack="false" uiid="ButtonMainScreen" text="Wallpapers" icon="menu_wallpaper.png" gap="5" textPosition="2" >
+    </component>
+    <component type="Button" name="Button3" cloudDestinationProperty="Button3" commandName="Tasbih" commandIcon="menu_tasbih.png" commandId="2" commandAction="Tasbih" commandBack="false" uiid="ButtonMainScreen" text="Tasbih" icon="menu_tasbih.png" gap="5" textPosition="2" >
+    </component>
+  </component>
+  <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="footermain" text="" icon="bottom_menu.png" >
+    <layoutConstraint value="South" />
+  </component>
+</component>

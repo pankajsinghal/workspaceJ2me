@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="surah" cloudDestinationProperty="surah" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  <component type="Button" name="SurahSelect" cloudDestinationProperty="SurahSelect" commandName="" commandId="4" commandAction="aaya" commandBack="false" uiid="ButtonHidden" text="" >
+    <layoutConstraint value="East" />
+  </component>
+  <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="headermain" text="" icon="header.png" >
+    <layoutConstraint value="North" />
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="ContainerSurahList" layout="LayeredLayout" >
+    <layoutConstraint value="Center" />
+    <component type="Label" name="ListSurahBG" cloudDestinationProperty="ListSurahBG" uiid="LabelListSurahBG" text="" >
+    </component>
+    <component type="List" name="ListSurah" cloudDestinationProperty="ListSurah" uiid="ListSurah" itemGap="0"  selectedRenderer="surahRenderer" unselectedRenderer="surahRenderer" >
+      <mapItems>
+        <stringItem key="SurahName" value="1" />
+      </mapItems>
+      <mapItems>
+        <stringItem key="SurahName" value="2" />
+      </mapItems>
+      <mapItems>
+        <stringItem key="SurahName" value="3" />
+      </mapItems>
+    </component>
+  </component>
+  <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="footermain" text="" icon="bottom_menu.png" >
+    <layoutConstraint value="South" />
+  </component>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="aaya" cloudDestinationProperty="aaya" uiid="FormAaya" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="headermain" text="" icon="header.png" >
+    <layoutConstraint value="North" />
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="ContainerSurahList" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="LayeredLayout" >
+      <layoutConstraint value="North" />
+      <component type="Label" name="LabelSurahBoard" cloudDestinationProperty="Label2" uiid="LabelSurahBoard" text="" icon="surahboard.png" >
+      </component>
+      <component type="Label" name="LabelSurahBoardText" cloudDestinationProperty="Label3" uiid="LabelSurahBoardText" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="LayeredLayout" >
+      <layoutConstraint value="Center" />
+      <component type="Label" name="ListAayaBG" cloudDestinationProperty="Label2" uiid="ListAayaBG" text="" >
+      </component>
+      <component type="List" name="ListAaya" cloudDestinationProperty="ListAaya" uiid="ListSurah" focusable="true" itemGap="1" >
+      </component>
+    </component>
+  </component>
+  <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="footermain" text="" icon="bottom_menu.png" >
+    <layoutConstraint value="South" />
+  </component>
+<command name="prev" id="7" action="" backCommand="false" /><command name="next" id="6" action="" backCommand="false" /></component>

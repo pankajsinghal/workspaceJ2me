@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="6" useXmlUI="false">
+    <ui name="aaya" />
+    <image name="bg.png"  />
+    <image name="bottom_menu.png"  />
+    <image name="header.png"  />
+    <theme name="IslamicPortal">
+        <val key="ButtonHidden.align" value="4" />
+        <val key="ButtonHidden.transparency" value="0" />
+        <val key="ButtonMainScreen.align" value="4" />
+        <val key="ButtonMainScreen.fgColor" value="ffffff" />
+        <font key="ButtonMainScreen.font" type="system" face="0" style="1" size="0" />
+        <val key="ButtonMainScreen.margin" value="0,0,0,0" />
+        <val key="ButtonMainScreen.padding" value="0,0,0,0" />
+        <val key="ButtonMainScreen.press#derive" value="ButtonMainScreen.sel" />
+        <border key="ButtonMainScreen.sel#border" type="etchedRaised" thickness="2" color="16776960" colorB="16763904" />
+        <val key="ButtonMainScreen.sel#derive" value="ButtonMainScreen" />
+        <val key="ButtonMainScreen.transparency" value="0" />
+        <val key="ButtonTasbihReset.derive" value="LabelBeads" />
+        <val key="ButtonTasbihReset.press#derive" value="LabelBeads.sel" />
+        <val key="ButtonTasbihReset.sel#derive" value="LabelBeads" />
+        <val key="ContainerListWallpaper.align" value="4" />
+        <val key="ContainerListWallpaper.transparency" value="0" />
+        <val key="ContainerSurahList.align" value="4" />
+        <val key="ContainerSurahList.margin" value="0,0,0,0" />
+        <val key="ContainerSurahList.padding" value="0,0,0,0" />
+        <val key="ContainerSurahList.sel#align" value="4" />
+        <val key="ContainerSurahList.sel#transparency" value="0" />
+        <val key="ContainerSurahList.transparency" value="0" />
+        <val key="Form.align" value="4" />
+        <val key="Form.bgImage" value="bg.png" />
+        <val key="Form.bgType" value="24" />
+        <val key="Form.margin" value="0,0,0,0" />
+        <val key="Form.padding" value="0,0,0,0" />
+        <val key="Form.transparency" value="0" />
+        <val key="LabelBeads.align" value="4" />
+        <font key="LabelBeads.font" type="system" face="0" style="1" size="0" />
+        <val key="LabelBeads.margin" value="0,0,0,0" />
+        <val key="LabelBeads.padding" value="0,0,0,0" />
+        <val key="LabelBeads.transparency" value="0" />
+        <val key="LabelListSurahBG.align" value="4" />
+        <val key="LabelListSurahBG.bgImage" value="surahlistbox.png" />
+        <val key="LabelListSurahBG.bgType" value="24" />
+        <val key="LabelListSurahBG.transparency" value="0" />
+        <val key="LabelSurahBoard.align" value="4" />
+        <val key="LabelSurahBoard.transparency" value="0" />
+        <val key="LabelSurahBoardText.align" value="4" />
+        <val key="LabelSurahBoardText.transparency" value="0" />
+        <val key="LabelWallpaperFullScreen.align" value="4" />
+        <val key="LabelWallpaperFullScreen.transparency" value="0" />
+        <val key="LabelWallpaperIcon.align" value="4" />
+        <val key="LabelWallpaperIcon.transparency" value="0" />
+        <val key="ListAayaBG.align" value="4" />
+        <val key="ListAayaBG.bgImage" value="surahpage.png" />
+        <val key="ListAayaBG.bgType" value="24" />
+        <val key="ListAayaBG.transparency" value="0" />
+        <val key="ListSurah.align" value="4" />
+        <val key="ListSurah.marUnit" value="1,1,1,1" />
+        <val key="ListSurah.margin" value="5,5,5,5" />
+        <val key="ListSurah.press#derive" value="ListSurah.sel" />
+        <val key="ListSurah.sel#derive" value="ListSurah" />
+        <val key="ListSurah.transparency" value="0" />
+        <val key="RendererSurahList.align" value="4" />
+        <val key="RendererSurahList.press#align" value="4" />
+        <border key="RendererSurahList.press#border" type="image" i1="RendererSurahList.sel#borderTop_2.png" i2="RendererSurahList.sel#borderBottom_2.png" i3="RendererSurahList.sel#borderLeft_2.png" i4="RendererSurahList.sel#borderRight_2.png" i5="RendererSurahList.sel#borderTopL_2.png" i6="RendererSurahList.sel#borderTopR_2.png" i7="RendererSurahList.sel#borderBottomL_2.png" i8="RendererSurahList.sel#borderBottomR_2.png" i9="RendererSurahList.sel#borderCenter_2.png" />
+        <val key="RendererSurahList.press#derive" value="RendererSurahList.sel" />
+        <val key="RendererSurahList.press#transparency" value="0" />
+        <val key="RendererSurahList.sel#align" value="4" />
+        <val key="RendererSurahList.sel#bgImage" value="bg.png" />
+        <val key="RendererSurahList.sel#bgType" value="1" />
+        <border key="RendererSurahList.sel#border" type="image" i1="RendererSurahList.sel#borderTop_2.png" i2="RendererSurahList.sel#borderBottom_2.png" i3="RendererSurahList.sel#borderLeft_2.png" i4="RendererSurahList.sel#borderRight_2.png" i5="RendererSurahList.sel#borderTopL_2.png" i6="RendererSurahList.sel#borderTopR_2.png" i7="RendererSurahList.sel#borderBottomL_2.png" i8="RendererSurahList.sel#borderBottomR_2.png" i9="RendererSurahList.sel#borderCenter_2.png" />
+        <val key="RendererSurahList.sel#transparency" value="0" />
+        <val key="RendererSurahList.transparency" value="0" />
+        <val key="RendererWallpaperList.align" value="4" />
+        <val key="RendererWallpaperList.sel#align" value="4" />
+        <border key="RendererWallpaperList.sel#border" type="image" i1="LabelWallpaperIcon.sel#borderTop_2.png" i2="LabelWallpaperIcon.sel#borderBottom_2.png" i3="LabelWallpaperIcon.sel#borderLeft_2.png" i4="LabelWallpaperIcon.sel#borderRight_2.png" i5="LabelWallpaperIcon.sel#borderTopL_2.png" i6="LabelWallpaperIcon.sel#borderTopR_2.png" i7="LabelWallpaperIcon.sel#borderBottomL_2.png" i8="LabelWallpaperIcon.sel#borderBottomR_2.png" i9="LabelWallpaperIcon.sel#borderCenter_2.png" />
+        <val key="RendererWallpaperList.sel#transparency" value="0" />
+        <val key="RendererWallpaperList.transparency" value="0" />
+        <val key="footermain.derive" value="headermain" />
+        <val key="headermain.align" value="4" />
+        <val key="headermain.margin" value="0,0,0,0" />
+        <val key="headermain.padding" value="0,0,0,0" />
+        <val key="headermain.transparency" value="0" />
+        <val key="splash.align" value="4" />
+        <val key="splash.bgImage" value="splash.png" />
+        <val key="splash.bgType" value="24" />
+        <val key="splash.margin" value="0,0,0,0" />
+        <val key="splash.padding" value="0,0,0,0" />
+        <val key="splash.transparency" value="0" />
+    </theme>
+    <image name="LabelWallpaperIcon.sel#borderBottom_1.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderBottom_2.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderBottomL_1.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderBottomL_2.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderBottomR_1.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderBottomR_2.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderCenter_1.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderCenter_2.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderLeft_1.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderLeft_2.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderRight_1.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderRight_2.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderTop_1.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderTop_2.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderTopL_1.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderTopL_2.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderTopR_1.png" type="multi"  />
+    <image name="LabelWallpaperIcon.sel#borderTopR_2.png" type="multi"  />
+    <ui name="MainScreen" />
+    <image name="menu_prayeralert.png"  />
+    <image name="menu_prayeralert_dsel.png"  />
+    <image name="menu_quran-karim.png"  />
+    <image name="menu_quran-karim_dsel.png"  />
+    <image name="menu_tasbih.png"  />
+    <image name="menu_tasbih_dsel.png"  />
+    <image name="menu_wallpaper.png"  />
+    <image name="menu_wallpaper_dsel.png"  />
+    <ui name="PrayerAlert" />
+    <image name="RendererSurahList.sel#borderBottom_1.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderBottom_2.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderBottomL_1.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderBottomL_2.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderBottomR_1.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderBottomR_2.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderCenter_1.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderCenter_2.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderLeft_1.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderLeft_2.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderRight_1.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderRight_2.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderTop_1.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderTop_2.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderTopL_1.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderTopL_2.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderTopR_1.png" type="multi"  />
+    <image name="RendererSurahList.sel#borderTopR_2.png" type="multi"  />
+    <ui name="splash" />
+    <image name="splash.png"  />
+    <ui name="surah" />
+    <image name="surahboard.png"  />
+    <image name="surahlistbox.png"  />
+    <image name="surahpage.png"  />
+    <ui name="surahRenderer" />
+    <ui name="Tasbih" />
+    <image name="tasbihboard.png"  />
+    <image name="tasbihrest.png"  />
+    <ui name="wallpaper" />
+    <ui name="WallpaperFullScreen" />
+    <ui name="wallpaperRenderer" />
+</resource>

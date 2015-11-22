@@ -1,0 +1,215 @@
+package userclasses;
+
+import generated.StateMachineBase;
+
+import java.io.DataInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.Enumeration;
+import java.util.Hashtable;
+import java.util.Vector;
+
+import userclasses.Network.NativeCoordinates;
+import userclasses.json.JSONArray;
+import userclasses.json.JSONException;
+import userclasses.json.JSONObject;
+import userclasses.renderer.WallpaperListRenderer;
+
+import com.codename1.components.Progress;
+import com.codename1.io.ConnectionRequest;
+import com.codename1.io.NetworkManager;
+import com.codename1.io.services.ImageDownloadService;
+import com.codename1.location.LocationManager;
+import com.codename1.system.NativeLookup;
+import com.codename1.ui.Button;
+import com.codename1.ui.Dialog;
+import com.codename1.ui.Image;
+import com.codename1.ui.List;
+import com.codename1.ui.list.ContainerList;
+import com.codename1.ui.list.DefaultListModel;
+
+/**
+ *
+ * @author Your name here
+ */
+public class StateMachine extends StateMachineBase {
+
+    String wallpaperUrlResponse;
+    String wallpaperDownloadUrl;
+    Button showWallpapers;
+    int selectedSurahNumber;
+    int selectedSurahPartNumber=1;
+    Button selectSurah;
+    List aayaList;
+
+    public StateMachine(String resFile) {
+        super(resFile);
+        // do not modify, write code in initVars and initialize class members there,
+        // the constructor might be invoked too late due to race conditions that might occur
+    }
+
+    /**
+     * this method should be used to initialize variables instead of the
+     * constructor/class scope to avoid race conditions
+     */
+    protected void initVars() {
+        NetworkManager.getInstance().start();
+    }
+
+    
+
+	String postRequest(String url) {
+		String response=null;
+		ConnectionRequest request = new ConnectionRequest() {
+			protected void readResponse(InputStream input) {
+				// just read from the response input stream
+				byte[] data = null;
+				if (getResponseCode() == 200) {
+					// If content length is not given, read in chunks.
+					int length = 0;
+					DataInputStream in = null;
+					int chunkSize = 512;
+					int index = 0;
+					int readLength = 0;
+					in = new DataInputStream(input);
+					data = new byte[chunkSize];
+					do {
+						if (data.length < index + chunkSize) {
+							byte[] newData = new byte[index + chunkSize];
+							System.arraycopy(data, 0, newData, 0, data.length);
+							data = newData;
+						}
+						try {
+							readLength = in.read(data, index, chunkSize);
+						} catch (IOException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+						index += readLength;
+					} while (readLength == chunkSize);
+					length = index;
+				}
+				wallpaperUrlResponse = new String(data);
+				
+			}
+			
+			protected void postResponse() {
+				// invoked on the EDT after processing is complete to allow the
+				// networking code
+				// to update the UI
+			}
+
+			protected void buildRequestBody(OutputStream os) {
+				// writes post data, by default this “just works” but if you
+				// want to write this
+				// manually then override this
+
+				try {
+					JSONObject jSONObject = new JSONObject();
+					jSONObject.put("start_count", 1);
+					jSONObject.put("end_count", 10);
+					jSONObject.put("type", 1);
+					// os.write("{\"start_count\":\"1\",\"end_count\":\"12\"}".getBytes());
+					os.write(jSONObject.toString().getBytes());
+
+				} catch (JSONException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		};
+		request.setUrl(url);
+		request.setPost(true);
+		request.addRequestHeader("username", "bng");
+		request.addRequestHeader("password", "123456");
+		Progress progress = new Progress("Please Wait...", request);
+		progress.setDisposeOnCompletion(true);
+		NetworkManager.getInstance().addToQueue(request);
+		progress.show();
+		return response;
+	}
+    
+//    protected boolean onMainScreenWallpapers() {
+//        // If the resource file changes the names of components this call will break notifying you that you should fix the code
+//        boolean val = super.onMainScreenWallpapers();
+//        postRequest("http://android.bng.gcs.net.in/api/walpaper");
+//        Dialog.show(null,wallpaperUrlResponse , "OK", null);
+//        System.out.println("response : " + wallpaperUrlResponse);
+//        return val;
+//    }
+
+//    @Override
+//    protected boolean initListModelContainerList(com.codename1.ui.list.ContainerList cmp) {
+//    	Dialog.show(null,"i = " , "OK", null);
+//      Vector resultVector = parseWallpaperThumbnailJSON(wallpaperUrlResponse, cmp);
+//      cmp.setModel(new DefaultListModel(resultVector));
+//        return true;
+//    }
+//    private Vector parseWallpaperThumbnailJSON(String response, ContainerList cmp) {
+//        Vector resultVector = new Vector();
+//        Image blank = Image.createImage(50, 50);
+//        try {
+//            JSONObject jSONObject = new JSONObject(response);
+//            System.out.println(jSONObject);
+//            Enumeration e = jSONObject.keys();
+//            while (e.hasMoreElements()) {
+//                String key = (String) e.nextElement();
+//                System.out.println(key + " : " + jSONObject.getString(key));
+//                if (key.equalsIgnoreCase("wallpapers")) {
+//                    JSONArray jSONArray = jSONObject.getJSONArray(key);
+//                    for (int i = 0; i < jSONArray.length(); i++) {
+//                        JSONObject wallpaper = jSONArray.getJSONObject(i);
+//                        if (wallpaper.has("image_thumb_url") && wallpaper.has("image_category") && wallpaper.has("image_url") && wallpaper.has("wallpaper_price")) {
+//                            //download the thumbnail and display it.
+//                        	Dialog.show(null,"i = "+i , "OK", null);
+//                            Hashtable hashtable = new Hashtable();
+//                            hashtable.put("wallpaperThumbnailURL", wallpaper.getString("image_thumb_url"));
+//                            hashtable.put("wallpaperURL", wallpaper.get("image_url"));
+//                            hashtable.put("wallpaperPrice", "Price: " + wallpaper.get("wallpaper_price"));
+//                            hashtable.put("wallpaperIcon", blank);
+//                            resultVector.addElement(hashtable);
+//                            final ImageDownloadService ids = new ImageDownloadService(wallpaper.getString("image_thumb_url"), cmp, resultVector.size() - 1, "wallpaperIcon") {
+//                                protected void handleException(Exception err) {
+//                                    if (err instanceof NullPointerException) {
+//                                        System.out.println("NULL POINTER EXCEPTION CAUGHT");
+//                                        return;
+//                                    }
+//                                    super.handleException(err); //To change body of generated methods, choose Tools | Templates.
+//                                }
+//                            };
+//                            NetworkManager.getInstance().addToQueue(ids);
+//                        }
+//                    }
+//                }
+//            }
+//        } catch (Exception ex) {
+//            System.out.println("error downloading images.");
+//            ex.printStackTrace();
+//            Dialog.show(null, "error downloading images", "OK", null);
+//        }
+//        return resultVector;
+//        
+//    }
+
+    @Override
+    protected boolean initListModelContainerList(com.codename1.ui.list.ContainerList cmp) {
+    	NativeCoordinates coordinates = (NativeCoordinates) NativeLookup.create(NativeCoordinates.class);
+    	 Dialog.show(null, coordinates.isSupported(), "OK", null);
+    	
+    	if(coordinates!=null)
+    	{
+    		double[] a = coordinates.getCoordinates();
+    		System.out.println(a);
+    		if(a!=null)cmp.setModel(new com.codename1.ui.list.DefaultListModel(new String[] {""+a[0], ""+a[1]}));
+    	}
+    	else cmp.setModel(new com.codename1.ui.list.DefaultListModel(new String[] {"nothing"}));
+    	
+        return true;
+    }
+
+}
+

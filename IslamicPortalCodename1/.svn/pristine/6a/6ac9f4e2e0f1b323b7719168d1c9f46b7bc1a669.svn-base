@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" name="surahRenderer" cloudDestinationProperty="wallpaperRenderer" uiid="RendererSurahList" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="1" >
+  <component type="Label" name="SurahName" cloudDestinationProperty="Label" uiid="LabelSurahName" focusable="true" text="" >
+  </component>
+</component>

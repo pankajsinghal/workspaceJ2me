@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;helloworldnetbeans.Midlet.java&apos; to &apos;Midlet1.java&apos;&#x0D;&#x0A;- Original project: &apos;helloworldnetbeans&apos;&#x0D;&#x0A;- Original element: &apos;helloworldnetbeans.Midlet.java&apos;&#x0D;&#x0A;- Renamed element: &apos;helloworldnetbeans.Midlet1.java&apos;" description="Rename compilation unit &apos;Midlet.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;helloworldnetbeans{Midlet.java" name="Midlet1.java" references="false" stamp="1393308617628" version="1.0"/>
+</session>

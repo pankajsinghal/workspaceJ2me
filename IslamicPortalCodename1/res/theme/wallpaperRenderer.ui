@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" name="wallpaperRenderer" cloudDestinationProperty="wallpaperRenderer" uiid="RendererWallpaperList" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="1" >
+  <component type="Label" name="wallpaperIcon" cloudDestinationProperty="Label" uiid="LabelWallpaperIcon" focusable="true" text="" >
+  </component>
+</component>

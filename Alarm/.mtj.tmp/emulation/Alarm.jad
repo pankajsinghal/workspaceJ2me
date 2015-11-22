@@ -1,0 +1,8 @@
+MIDlet-1: Alarm,,com.alarm.Alarm
+MIDlet-Jar-Size: 3155
+MIDlet-Jar-URL: Alarm.jar
+MIDlet-Name: Alarm MIDlet Suite
+MIDlet-Vendor: MIDlet Suite Vendor
+MIDlet-Version: 1.0.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.1

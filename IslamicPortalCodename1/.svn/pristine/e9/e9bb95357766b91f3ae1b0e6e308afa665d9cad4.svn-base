@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="PrayerAlert" cloudDestinationProperty="PrayerAlert" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" >
+    <layoutConstraint value="Center" />
+    <component type="Button" name="Button" cloudDestinationProperty="Button" commandName="Download" commandId="12" commandAction="" commandBack="false" text="Download" >
+    </component>
+    <component type="Label" name="labelPlay" cloudDestinationProperty="labelPlay" text="" >
+    </component>
+    <component type="Button" name="ButtonPlay" cloudDestinationProperty="ButtonPlay" commandName="stored" commandId="11" commandAction="" commandBack="false" uiid="ButtonPlay" text="stored" >
+    </component>
+  </component>
+  <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="headermain" text="" icon="header.png" >
+    <layoutConstraint value="North" />
+  </component>
+  <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="footermain" text="" icon="bottom_menu.png" >
+    <layoutConstraint value="South" />
+  </component>
+</component>

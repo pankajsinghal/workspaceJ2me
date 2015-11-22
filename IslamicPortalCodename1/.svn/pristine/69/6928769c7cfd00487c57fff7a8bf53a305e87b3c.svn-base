@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="wallpaper" cloudDestinationProperty="wallpaper" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="headermain" text="" icon="header.png" >
+    <layoutConstraint value="North" />
+  </component>
+  <component type="ContainerList" name="ContainerList" cloudDestinationProperty="ContainerList" uiid="ContainerListWallpaper" focusable="false" scrollableX="false" layout="GridLayout" gridLayoutRows="2" gridLayoutColumns="2" >
+    <layoutConstraint value="Center" />
+    <custom name="ListItems" type="java.lang.Object" array="true" dimensions="1" >
+    <mapItems>
+      <stringItem key="wallpaperIcon" value="1" />
+    </mapItems>
+    <mapItems>
+      <stringItem key="wallpaperIcon" value="2" />
+    </mapItems>
+    <mapItems>
+      <stringItem key="wallpaperIcon" value="3" />
+    </mapItems>
+    <mapItems>
+      <stringItem key="wallpaperIcon" value="4" />
+    </mapItems>
+    </custom>
+    <custom name="Renderer" type="com.codename1.ui.list.CellRenderer"  selectedRenderer="wallpaperRenderer" unselectedRenderer="wallpaperRenderer" " />
+  </component>
+  <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="footermain" text="" icon="bottom_menu.png" >
+    <layoutConstraint value="South" />
+  </component>
+  <component type="Button" name="ButtonShowWallpaper" cloudDestinationProperty="Button" commandName="" commandId="10" commandAction="WallpaperFullScreen" commandBack="false" uiid="ButtonHidden" text="" >
+    <layoutConstraint value="East" />
+  </component>
+</component>

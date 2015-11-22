@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="build/preprocessed"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/helloworldnetbeans.jar"/>
+	<classpathentry kind="con" path="org.elipse.mtj.JavaMEContainer/Oracle Java(TM) Platform Micro Edition SDK 3.4/JavaMEPhone1"/>
+	<classpathentry kind="output" path="build/preverifysrc"/>
+</classpath>

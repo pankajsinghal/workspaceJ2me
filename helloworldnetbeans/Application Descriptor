@@ -1,0 +1,6 @@
+MIDlet-Version: 1.0
+MIDlet-Vendor: pankaj
+MIDlet-Jar-URL: helloworldnetbeans.jar
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-1.0
+MIDlet-Name: pankaj

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="WallpaperFullScreen" cloudDestinationProperty="WallpaperFullScreen" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="headermain" text="" icon="header.png" >
+    <layoutConstraint value="North" />
+  </component>
+  <component type="Label" name="Image" cloudDestinationProperty="Label" uiid="LabelWallpaperFullScreen" text="" >
+    <layoutConstraint value="Center" />
+  </component>
+  <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="footermain" text="" icon="bottom_menu.png" >
+    <layoutConstraint value="South" />
+  </component>
+</component>

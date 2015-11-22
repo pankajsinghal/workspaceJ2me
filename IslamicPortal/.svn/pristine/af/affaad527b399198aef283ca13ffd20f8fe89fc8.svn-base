@@ -1,0 +1,64 @@
+package userclasses.Network;
+
+import java.util.Calendar;
+import java.util.Vector;
+
+import javax.microedition.location.Location;
+import javax.microedition.location.LocationException;
+import javax.microedition.location.LocationProvider;
+import javax.microedition.location.QualifiedCoordinates;
+
+import userclasses.PrayerTime.PrayTime;
+
+import com.nokia.mid.location.LocationUtil;
+import com.sun.lwuit.Dialog;
+
+public class GetCellIdCoordinates implements Runnable {
+
+	Calendar calendar = Calendar.getInstance();
+
+	LocationProvider provider;
+	Location location;
+	QualifiedCoordinates coordinates;
+	Thread t;
+	public static StringBuffer result = new StringBuffer();
+	public static boolean coordinatesFound = false;
+	public GetCellIdCoordinates(){
+		coordinatesFound = false;
+		t = new Thread(this);
+		t.start();
+	}
+
+	public void run() {
+		try {
+			// Specify the retrieval method to Online/Cell-ID
+			int[] methods = { (Location.MTA_ASSISTED | Location.MTE_CELLID
+					| Location.MTE_SHORTRANGE | Location.MTY_NETWORKBASED) };
+			// Retrieve the location provider
+			provider = LocationUtil.getLocationProvider(methods, null);
+			location = provider.getLocation(50000);
+			coordinates = location.getQualifiedCoordinates();
+			result.append("Latitude:" + coordinates.getLatitude() + "\n");
+			result.append("Longitude:" + coordinates.getLongitude()+"\n");
+			result.append(calendar.getTimeZone().getID()+"\n");
+			result.append(calendar.getTimeZone().getRawOffset()/(1000*60*60f)+"\n");
+			Vector prayerTimes = new PrayTime().getPrayerTimes(Calendar.getInstance(), coordinates.getLatitude(), coordinates.getLongitude(), calendar.getTimeZone().getRawOffset()/(1000*60*60f));
+			for(int i=0;i<prayerTimes.size();i++)
+			{
+				result.append(prayerTimes.elementAt(i)+"\n");
+			}
+			Dialog.show(null, GetCellIdCoordinates.result.toString(), "OK", null);
+			coordinatesFound = true;
+		} catch (NoClassDefFoundError ex) {
+			result.append("Cell-ID retrieval not supported on this device");
+			coordinatesFound = true;
+		} catch (InterruptedException e) {
+			result.append("Location retrieval was interrupted");
+			coordinatesFound = true;
+		} catch (LocationException x) {
+			result.append("Location could not be retreived");
+			coordinatesFound = true;
+		}
+
+	}
+}

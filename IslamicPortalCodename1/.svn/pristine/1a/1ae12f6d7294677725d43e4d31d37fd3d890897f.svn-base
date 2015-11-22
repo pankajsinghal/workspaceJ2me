@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Tasbih" cloudDestinationProperty="Tasbih" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="headermain" text="" icon="header.png" >
+    <layoutConstraint value="North" />
+  </component>
+  <component type="Container" name="ContainerSideBoard" cloudDestinationProperty="ContainerSideBoard" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+    <layoutConstraint value="East" />
+    <component type="Label" name="TasbihSideBoard" cloudDestinationProperty="TasbihSideBoard" uiid="LabelBeads" text="" icon="tasbihboard.png" >
+      <layoutConstraint value="North" />
+    </component>
+    <component type="Container" name="ContainerRest" cloudDestinationProperty="ContainerRest" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0" >
+      <layoutConstraint value="South" />
+      <component type="Container" name="ContainerRestInside" cloudDestinationProperty="ContainerRestInside" layout="LayeredLayout" >
+        <component type="Button" name="TasbihResetButton" cloudDestinationProperty="TasbihResetButton" uiid="ButtonTasbihReset" text="" icon="tasbihrest.png" >
+        </component>
+        <component type="Label" name="TasbihResetLabel" cloudDestinationProperty="TasbihResetLabel" uiid="LabelBeads" text="Reset" >
+        </component>
+      </component>
+    </component>
+  </component>
+  <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="footermain" text="" icon="bottom_menu.png" >
+    <layoutConstraint value="South" />
+  </component>
+</component>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<directory xmlns="http://www.eclipse.org/mylyn/discovery/directory/">
+	<entry url="http://nds2.fds-forum.nokia.com/nokias40sdkrepository/nokiasdks/com.nokia.nde.asha.sdk_1.1.jar" permitCategories="true" />
+</directory>

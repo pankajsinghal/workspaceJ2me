@@ -1,0 +1,8 @@
+MIDlet-1: Midlet, , helloworldnetbeans.Midlet
+MIDlet-Jar-Size: 1723
+MIDlet-Jar-URL: helloworldnetbeans.jar
+MIDlet-Name: helloworldnetbeans
+MIDlet-Vendor: Vendor
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.1
